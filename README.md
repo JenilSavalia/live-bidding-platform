@@ -8,7 +8,7 @@ A real-time auction system built with Node.js, Express, Socket.io, and React. Th
 
 <img width="1496" height="544" alt="diagram-export-1-29-2026-11_38_23-AM" src="https://github.com/user-attachments/assets/10702417-34c4-4a89-8709-44d96bbeb012" />
 
-![Live bidding demo](https://github.com/user-attachments/assets/f6a81ba0-73b7-44bd-b10d-5b860ddf80ff)
+![Demo](Live bidding demo.gif)
 
 
 ## 🛠 Tech Stack
