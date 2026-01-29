@@ -21,7 +21,8 @@ const AuctionGrid = () => {
     // Fetch Initial Data
     const fetchItems = useCallback(async () => {
         try {
-            const res = await axios.get('http://localhost:3000/api/items');
+            const host = window.location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://live-bidding-platform-j369.onrender.com';
+            const res = await axios.get(`${host}/api/items`);
             // Transform array to object for easier updates
             const map = {};
             if (res.data && res.data.data) {

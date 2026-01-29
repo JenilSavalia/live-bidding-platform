@@ -19,7 +19,7 @@ const Register = () => {
         setError('');
 
         try {
-            const host = window.location.hostname === 'localhost' ? 'http://localhost:3000' : '';
+            const host = window.location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://live-bidding-platform-j369.onrender.com';
             const res = await axios.post(`${host}/api/auth/register`, formData);
 
             const { token, user } = res.data.data;

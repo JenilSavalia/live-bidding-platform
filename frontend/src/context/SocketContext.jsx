@@ -13,7 +13,8 @@ export const SocketProvider = ({ children }) => {
         const token = localStorage.getItem('token');
 
         // Connect to the backend with auth token
-        const newSocket = io('http://localhost:3000', {
+        const host = window.location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://live-bidding-platform-j369.onrender.com';
+        const newSocket = io(host, {
             transports: ['websocket'],
             autoConnect: true,
             reconnection: true,
