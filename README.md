@@ -7,7 +7,8 @@ A real-time auction system built with Node.js, Express, Socket.io, and React. Th
 - **Backend API**: [https://live-bidding-platform-j369.onrender.com](https://live-bidding-platform-j369.onrender.com)
 
 <img width="1496" height="544" alt="diagram-export-1-29-2026-11_38_23-AM" src="https://github.com/user-attachments/assets/10702417-34c4-4a89-8709-44d96bbeb012" />
-![Live bidding demo](https://github.com/user-attachments/assets/44582fa4-72e8-49ef-aa68-9d13cdb56cb4)
+
+![Live bidding demo](https://github.com/user-attachments/assets/f6a81ba0-73b7-44bd-b10d-5b860ddf80ff)
 
 
 ## 🛠 Tech Stack
