@@ -65,6 +65,11 @@ curl -X POST http://localhost:3000/api/items \
 curl http://localhost:3000/api/items
 ```
 
+## 🧪 Testing Credentials
+
+- **User 1**: `jenil.savalia.cd@gmail.com` / `123456`
+- **User 2**: `hari@gmail.com` / `123456`
+
 ## Full Documentation
 
 See `docs/SETUP_AND_TESTING.md` for complete setup and testing guide.

@@ -107,6 +107,15 @@ npm install
 npm run dev
 ```
 
+## 🧪 Testing Accounts
+
+You can use the following credentials to test the platform:
+
+| Role | Email | Password |
+|------|-------|----------|
+| Account 1 | `jenil.savalia.cd@gmail.com` | `123456` |
+| Account 2 | `hari@gmail.com` | `123456` |
+
 ## 📖 Further Reading
 - [Detailed Setup & Testing Guide](backend/docs/SETUP_AND_TESTING.md)
 - [Backend README](backend/README.md)

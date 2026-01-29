@@ -454,6 +454,17 @@ tail -f logs/error.log
 5. **Monitor BullMQ** jobs in Redis
 6. **Check database consistency** between Redis and NeonDB
 
+## 🧪 Testing Credentials
+
+You can use the following pre-created accounts for testing:
+
+- **Account 1**: 
+  - Email: `jenil.savalia.cd@gmail.com`
+  - Password: `123456`
+- **Account 2**:
+  - Email: `hari@gmail.com`
+  - Password: `123456`
+
 ## Development Tools
 
 ### Recommended Tools
