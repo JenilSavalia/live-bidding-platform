@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #f5f7ff;
+  --color-primary-100: #ebf0fe;
+  --color-primary-200: #ced9fd;
+  --color-primary-300: #adc0fb;
+  --color-primary-400: #8ca7f9;
+  --color-primary-500: #6b8ef7;
+  --color-primary-600: #5672c6;
+  --color-primary-700: #405694;
+  --color-primary-800: #2b3963;
+  --color-primary-900: #151d31;
+
+  --font-sans: "Inter", sans-serif;
+
+  --animate-spin-slow: spin 3s linear infinite;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-xl;
+  }
+}

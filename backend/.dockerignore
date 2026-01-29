@@ -1,0 +1,11 @@
+# .dockerignore for Backend
+node_modules
+npm-debug.log
+logs
+.env
+.git
+.gitignore
+tests
+dist
+Dockerfile
+docker-compose.yml

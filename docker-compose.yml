@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  backend:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      # Environment variables are loaded from the backend/.env file via Docker or set here
+    env_file:
+      - ./backend/.env
+    restart: always
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    restart: always
+    depends_on:
+      - backend
+
+# Note: PostgreSQL and Redis are assumed to be external (e.g. Upstash, AWS RDS)
+# based on the existing configuration. You can add them here as local services
+# if you want a fully self-contained environment.
